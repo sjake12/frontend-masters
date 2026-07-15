@@ -27,7 +27,7 @@ function ContactRoute() {
         <h3>Submitted!</h3>
       ) : (
         <form onSubmit={mutation.mutate}>
-          <input name="name" placeholder="name" />
+          <input name="name" placeholder="Name" />
           <input type="email" name="email" placeholder="Email" />
           <textarea placeholder="Message" name="message"></textarea>
           <button type="submit">Submit</button>
